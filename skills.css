@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: black;
+  margin: 0;
+}
+
+.main-header {
+  background-color: rgb(97, 97, 97);
+  padding: 16px;
+  box-shadow: 10px;
+}
+
+.menu {
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  font-weight: 600;
+  text-decoration-line: none;
+  padding: 24px;
+  font-size: 20px;
+}
+
+.heading {
+  color: white;
+  margin-left: 800px;
+  margin-top: 50px;
+  font-size: 50px;
+  text-decoration-line: underline;
+  font-weight: 100;
+}
+.heading:hover {
+  color: rgba(59, 130, 246, 0.5);
+}
+
+.skill-one {
+  color: white;
+  margin-left: 25px;
+  transition: transform 0.2s ease-in-out;
+   
+
+}
+
+.skill-one:hover {
+  transform: scale(1.05);
+}
+
+.first-skill {
+  font-size: 40px;
+}
+
+.first-skill:hover {
+  color: rgba(59, 130, 246, 0.5);
+}
+
+.skill-one p {
+  margin-left: 30px;
+  font-size: 20px;
+  color: gray;}
+
+.skill-two {
+  color: white;
+  margin-left: 25px;
+  transition: transform 0.2s ease-in-out;
+
+}
+
+.skill-two:hover {
+  transform: scale(1.05);
+}
+
+.second-skill {
+  font-size: 40px;
+}
+
+.second-skill:hover {
+  color: rgba(59, 130, 246, 0.5);
+}
+
+.skill-two p {
+  margin-left: 30px;
+  font-size: 20px;
+  color: gray;
+}
+
+.skill-three {
+  color: white;
+  margin-left: 25px;
+  transition: transform 0.2s ease-in-out;
+
+}
+
+.skill-three:hover {
+  transform: scale(1.05);
+}
+
+.third-skill {
+  font-size: 40px;
+}
+
+.third-skill:hover {
+  color: rgba(59, 130, 246, 0.5);
+}
+
+.skill-three p {
+  margin-left: 30px;
+  font-size: 20px;
+  color: gray;
+}
+
+.skill-four {
+  color: white;
+  margin-left: 25px;
+  transition: transform 0.2s ease-in-out;
+
+}
+
+ .skill-four:hover {
+  transform: scale(1.05);
+  
+} 
+
+.fourth-skill {
+  font-size: 40px;
+}
+
+.fourth-skill:hover {
+  color: rgba(59, 130, 246, 0.5);
+}
+
+.skill-four p {
+  margin-left: 30px;
+  font-size: 20px;
+  
+  color: gray;  
+}
+
+
+.footer{
+  color: white;
+  display: flex; 
+  justify-content: flex-end;
+  margin-right: 20px;
+  
+}
+
+#arrow{
+  border: 1px solid black;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color:rgba(59, 130, 246, 0.5); 
+  padding: 10px;
+  transition: transform 0.2s ease-in-out;
+  
+}
+
+#arrow:hover{
+  transform: scale(1.05);
+  
+}
+
+
+.upper-link{
+  color: white;
+}

@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: black;
+  margin: 0;
+}
+
+.main-header {
+  background-color: rgb(97, 97, 97);
+  padding: 16px;
+  box-shadow: 10px;
+}
+
+.menu {
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  font-weight: 600;
+  text-decoration-line: none;
+  padding: 24px;
+  font-size: 20px;
+}
+
+.heading {
+  color: white;
+  margin-left: 800px;
+  margin-top: 50px;
+  font-size: 50px;
+  text-decoration-line: underline;
+  font-weight: 100;
+}
+.heading:hover {
+  color: rgba(59, 130, 246, 0.5);
+}
+
+.humberger {
+  max-width: 30%;
+}
+.project-one {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 10px solid rgb(202, 253, 127);
+  border-top: 10px solid rgb(202, 253, 127);
+
+  max-width: 1200px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 80px;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 3px;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.project-one :hover {
+  transform: scale(1.05);
+}
+
+.humberger-card {
+  background-color: rgba(59, 130, 246, 0.5);
+
+  /* background-color: lightblue; */
+  max-width: 30%;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 3px;
+}
+
+.humberger-card:hover {
+  transform: scale(1.05);
+}
+
+.humberger-card h1 {
+  /* color: white; */
+  /* color: gray; */
+  color: rgb(202, 253, 127);
+  text-decoration-line: underline;
+  text-align: center;
+  font-style: italic;
+}
+
+.humberger-card p {
+  /* color: gray; */
+
+  color: white;
+  font-style: italic;
+  /* text-align: center; */
+  padding-left: 10px;
+}
+
+.live {
+  padding-left: 5px;
+  text-decoration-line: underline;
+}
+
+.live-link {
+  color: white;
+  text-decoration-line: none;
+  padding-left: 10px;
+}
+
+.live-link:hover {
+  color: rgb(202, 253, 127);
+}
+
+.code {
+  padding-left: 5px;
+  text-decoration-line: underline;
+}
+
+.code-link {
+  padding-left: 10px;
+  color: white;
+  text-decoration-line: none;
+}
+
+.code-link:hover {
+  color: rgb(202, 253, 127);
+}
+
+.focus {
+  max-width: 30%;
+}
+.project-two {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 10px solid rgb(202, 253, 127);
+  max-width: 1200px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 80px;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 3px;
+  padding-bottom: 60px;
+}
+
+.project-two :hover {
+  transform: scale(1.05);
+}
+
+.focus-card {
+  background-color: rgba(59, 130, 246, 0.5);
+
+  max-width: 30%;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 3px;
+}
+
+.focus-card:hover {
+  transform: scale(1.05);
+}
+
+.focus-card h1 {
+  color: rgb(202, 253, 127);
+  text-decoration-line: underline;
+  text-align: center;
+  font-style: italic;
+}
+
+.focus-card p {
+  color: white;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+.focus-live {
+  padding-left: 5px;
+  text-decoration-line: underline;
+}
+
+.focus-live-link {
+  color: white;
+  text-decoration-line: none;
+  padding-left: 10px;
+}
+
+.focus-live-link:hover {
+  color: rgb(202, 253, 127);
+}
+
+.focus-code {
+  padding-left: 5px;
+  text-decoration-line: underline;
+}
+
+.focus-code-link {
+  padding-left: 10px;
+  color: white;
+  text-decoration-line: none;
+}
+
+.focus-code-link:hover {
+  color: rgb(202, 253, 127);
+}
+
+.keep-trying {
+  max-width: 30%;
+}
+.project-three {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 10px solid rgb(202, 253, 127);
+  max-width: 1200px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 80px;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 3px;
+  padding-bottom: 60px;
+}
+
+.project-three :hover {
+  transform: scale(1.05);
+}
+
+.trying-card {
+  background-color: rgba(59, 130, 246, 0.5);
+
+  max-width: 30%;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 3px;
+}
+
+.trying-card:hover {
+  transform: scale(1.05);
+}
+
+.trying-card h1 {
+  color: rgb(202, 253, 127);
+  text-decoration-line: underline;
+  text-align: center;
+  font-style: italic;
+}
+
+.trying-card p {
+  color: white;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+.trying-live {
+  padding-left: 5px;
+  text-decoration-line: underline;
+}
+
+.trying-live-link {
+  color: white;
+  text-decoration-line: none;
+  padding-left: 10px;
+}
+
+.trying-live-link:hover {
+  /* transform: scale(1.05); */
+  color: rgb(202, 253, 127);
+}
+
+.trying-code {
+  padding-left: 5px;
+  text-decoration-line: underline;
+}
+
+.trying-code-link {
+  padding-left: 10px;
+  color: white;
+  text-decoration-line: none;
+}
+
+.trying-code-link:hover {
+  color: rgb(202, 253, 127);
+}
+
+.footer {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+#arrow {
+  border: 1px solid black;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: rgba(59, 130, 246, 0.5);
+  padding: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+#arrow:hover {
+  transform: scale(1.05);
+}
+
+.upper-link {
+  color: white;
+}

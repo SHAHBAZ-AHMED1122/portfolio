@@ -1,0 +1,294 @@
+
+*{box-sizing: border-box;}
+
+
+body {
+    font-family: "poppins", sans-serif;
+    background-color: black;
+    margin: 0;
+  }
+  
+
+.main-header {
+    background-color: rgb(97, 97, 97);
+    padding: 16px;
+    box-shadow: 10px;}
+
+
+    .menu {
+        text-align: center;
+      }
+      
+
+      nav a {
+        color: black;
+        font-weight: 600;
+        text-decoration-line: none;
+        padding: 24px;
+        font-size: 20px;
+      }
+
+
+
+      .heading{
+        color: white;
+  margin-left: 800px;
+  margin-top: 50px;
+  font-size: 50px;
+  text-decoration-line: underline;
+  font-weight: 100;
+      }
+
+
+      .heading:hover {
+        color: rgba(59, 130, 246, 0.5);
+      }
+
+.get-in-touch h1{
+  color: white;
+  margin-left: 40px;
+  font-style: italic;
+  font-size: 40px;
+  transition: transform 0.2s ease-in-out;
+}
+
+
+.get-in-touch h1:hover{
+  transform: scale(1.05);
+  color: rgba(59, 130, 246, 0.5);
+}
+
+.get-in-touch p{
+  color:rgb(176, 174, 174);
+  margin-left: 60px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+
+.ways-to-connect h1{
+color: white;
+text-align: center;
+margin-top: 100px;
+font-style: italic;
+transition: transform 0.2s ease-in-out;
+color: rgb(202, 253, 127);
+
+}
+
+
+.ways-to-connect h1:hover{
+  transform: scale(1.05);
+  color: rgba(59, 130, 246, 0.5);
+
+}
+
+
+
+.ways-to-connect p{
+  color: white;
+}
+
+.email-icon{
+  color: white;
+font-size: 40px;
+margin-left: 40px;
+transition: transform 0.2s ease-in-out;
+}
+
+
+.email-icon:hover{
+  transform: scale(1.05);
+  color: rgba(59, 130, 246, 0.5);
+}
+
+
+.email-para{
+  color: white;
+  margin-left: 120px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+
+.email-para a{
+  text-decoration-line: none ;
+}
+
+
+.email-para span{
+  font-weight: 900;
+  color: rgb(202, 253, 127);
+  
+}
+
+
+.email-para span:hover{
+  
+  color: rgba(59, 130, 246, 0.5);
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.LinkedIn-icon{
+  color: white;
+font-size: 40px;
+margin-left: 40px;
+transition: transform 0.2s ease-in-out;
+}
+
+
+.LinkedIn-icon:hover{
+  transform: scale(1.05);
+  color: rgba(59, 130, 246, 0.5);
+}
+
+
+.LinkedIn-para{
+  color: white;
+  margin-left: 120px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.LinkedIn-para a{
+  text-decoration-line: none;
+}
+
+.LinkedIn-para span{
+  font-weight: 900;
+  color: rgb(202, 253, 127);
+  
+}
+
+
+.LinkedIn-para span:hover{
+  
+  color: rgba(59, 130, 246, 0.5);
+  
+}
+
+
+
+
+
+
+
+
+
+.github-icon{
+  color: white;
+font-size: 40px;
+margin-left: 40px;
+transition: transform 0.2s ease-in-out;
+}
+
+
+.github-icon:hover{
+  transform: scale(1.05);
+  color: rgba(59, 130, 246, 0.5);
+}
+
+
+.github-para{
+  color: white;
+  margin-left: 120px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.github-para a{
+  text-decoration-line: none ;
+}
+
+
+.github-para span{
+  font-weight: 900;
+  color: rgb(202, 253, 127);
+  
+}
+
+
+.github-para span:hover{
+  
+  color: rgba(59, 130, 246, 0.5);
+  
+}
+
+
+
+
+
+
+
+.work-together h1{
+  color: white;
+  text-align: center;
+  margin-top: 120px;
+  font-style: italic;
+  color: rgb(202, 253, 127);
+  transition: transform 0.2s ease-in-out;
+
+}
+
+
+
+.work-together h1:hover{
+  transform: scale(1.05);
+  color: rgba(59, 130, 246, 0.5);
+}
+
+
+.work-together p{
+  color:rgb(176, 174, 174);
+  font-style: italic;
+  margin-top: 70px;
+text-align: center;
+
+}
+
+
+
+
+.footer{
+  color: white;
+  display: flex; 
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+#arrow{
+  border: 1px solid black;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color:rgba(59, 130, 246, 0.5); 
+  padding: 10px;
+  transition: transform 0.2s ease-in-out;
+  
+}
+#arrow:hover{
+  transform: scale(1.05);
+  
+}
+
+.upper-link{
+  color: white;
+}

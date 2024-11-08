@@ -1,0 +1,82 @@
+
+*{box-sizing: border-box;}
+
+
+body {
+    font-family: "poppins", sans-serif;
+    background-color: black;
+    margin: 0;
+  }
+  
+
+.main-header {
+    background-color: rgb(97, 97, 97);
+    padding: 16px;
+    box-shadow: 10px;}
+
+
+    .menu {
+        text-align: center;
+      }
+      
+
+      nav a {
+        color: black;
+        font-weight: 600;
+        text-decoration-line: none;
+        padding: 24px;
+        font-size: 20px;
+      }
+
+h1{
+  color: white;
+  margin-left: 800px;
+  font-size: 50px;
+  font-weight: 100;
+  text-decoration-line: underline;
+  margin-top: 50px;
+
+}
+
+h1:hover{
+  color:rgba(59, 130, 246, .5) ;
+}
+
+.info{
+  color: white;
+margin-left: 25px;
+font-size: 18px;
+font-style: italic;
+color:rgb(176, 174, 174);
+
+} 
+
+.info:hover{
+  color:rgba(59, 130, 246, .5) ;
+  
+
+}
+.name{
+  font-weight: 800;
+  color: white;
+} 
+.city{
+  font-weight: 800;
+  color:white;
+
+}
+.SO{
+  font-weight: 800;
+  color: white;
+
+}
+
+.edu{
+  font-weight: 800;
+  color:white;
+
+}
+
+
+
+
